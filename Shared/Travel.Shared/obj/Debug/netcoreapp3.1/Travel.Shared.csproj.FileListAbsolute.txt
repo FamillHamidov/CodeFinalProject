@@ -1,0 +1,10 @@
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\bin\Debug\netcoreapp3.1\Travel.Shared.deps.json
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\bin\Debug\netcoreapp3.1\Travel.Shared.dll
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\bin\Debug\netcoreapp3.1\Travel.Shared.pdb
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.csproj.AssemblyReference.cache
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.AssemblyInfoInputs.cache
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.AssemblyInfo.cs
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.csproj.CoreCompileInputs.cache
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.dll
+D:\Project\CodeAcademyFinalProject\Shared\Travel.Shared\obj\Debug\netcoreapp3.1\Travel.Shared.pdb
