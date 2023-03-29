@@ -14,7 +14,7 @@ namespace Travel.Services.Catalog.Models
         public string? Luggage{ get; set; }
         public string? AirTicket { get; set; }
         public string? Picture{ get; set; }
-        public string? UsserId { get; set; }
+        public string? UserId { get; set; }
         public string? Description { get; set; }
         public Feature? Feature { get; set; }
         [BsonRepresentation(BsonType.ObjectId)]

@@ -29,10 +29,10 @@ namespace Travel.Services.Catalog.Controllers
             return CreateActionResultInstance(tour);
         }
         [HttpGet]
-        [Route("GetAllByUserId/{userid}")]
+        [Route("/api/[controller]/GetAllByUserId/{userid}")]
         public async Task<IActionResult> GetAllByUserId(string userid)
         {
-            var tour = await _tourService.GetByIdAsync(userid);
+            var tour = await _tourService.GetByUserIdAsync(userid);
             return CreateActionResultInstance(tour);
         }
         [HttpPost]

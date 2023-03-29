@@ -51,7 +51,7 @@ namespace Travel.Services.Catalog.Services
 
         public async Task<Response<List<TourDto>>> GetByUserIdAsync(string userid)
         {
-            var tours = await _tourCollection.Find<Tour>(x => x.UsserId == userid).ToListAsync();
+            var tours = await _tourCollection.Find<Tour>(x => x.UserId == userid).ToListAsync();
             if (tours.Any())
             {
                 foreach (var tour in tours)
