@@ -1,2 +1,4 @@
 Services
   --catalogApi-> 5011
+  --photo_stock_api=>5012
+identityServer=>5001

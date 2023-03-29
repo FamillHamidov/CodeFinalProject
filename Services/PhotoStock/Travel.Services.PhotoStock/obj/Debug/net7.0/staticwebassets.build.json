@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "hOHaiJCpGd4t+J4ndVwiLcQRNENUNd/S4EXh+p8GfyA=",
+  "Source": "Travel.Services.PhotoStock",
+  "BasePath": "_content/Travel.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Travel.Services.PhotoStock\\wwwroot",
+      "Source": "Travel.Services.PhotoStock",
+      "ContentRoot": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Travel.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
