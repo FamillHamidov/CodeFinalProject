@@ -30,6 +30,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{B0C485
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Services.Basket", "Services\Basket\Travel.Services.Basket\Travel.Services.Basket.csproj", "{EA25EEE5-2144-45CE-B8ED-32F655929BC8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{794E9B8D-A2C9-4D37-A154-AA1C44F3E4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Services.Discount", "Services\Discount\Travel.Services.Discount\Travel.Services.Discount.csproj", "{9BF36C35-44D2-4E95-8B89-A1E76F500670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,10 @@ Global
 		{EA25EEE5-2144-45CE-B8ED-32F655929BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA25EEE5-2144-45CE-B8ED-32F655929BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA25EEE5-2144-45CE-B8ED-32F655929BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF36C35-44D2-4E95-8B89-A1E76F500670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF36C35-44D2-4E95-8B89-A1E76F500670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF36C35-44D2-4E95-8B89-A1E76F500670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF36C35-44D2-4E95-8B89-A1E76F500670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,8 @@ Global
 		{7EEBED7E-1CFB-49EE-B8DF-58852EFDCCED} = {F09A1959-2AE1-4441-93A3-AAE1F08FE37C}
 		{B0C485CA-7214-463A-A046-32382F9C9737} = {097B59EB-CE95-44AB-8B8D-76A1CC038748}
 		{EA25EEE5-2144-45CE-B8ED-32F655929BC8} = {B0C485CA-7214-463A-A046-32382F9C9737}
+		{794E9B8D-A2C9-4D37-A154-AA1C44F3E4AD} = {097B59EB-CE95-44AB-8B8D-76A1CC038748}
+		{9BF36C35-44D2-4E95-8B89-A1E76F500670} = {794E9B8D-A2C9-4D37-A154-AA1C44F3E4AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A85B448D-75E1-431E-A0CD-E41CFCE25F67}
