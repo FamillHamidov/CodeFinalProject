@@ -16,6 +16,7 @@ namespace Travel.IdentityServer
              {
                  new ApiResource("resource_catalog"){ Scopes={ "catalog_fullpermission" } },
                  new ApiResource("resource_photo_stock"){ Scopes={ "photo_stock_fullpermission" } },
+                 new ApiResource("resource_basket"){ Scopes={ "basket_fullpermission" } },
                  new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
              };
         public static IEnumerable<IdentityResource> IdentityResources =>
@@ -32,6 +33,7 @@ namespace Travel.IdentityServer
             {
                 new ApiScope("catalog_fullpermission","full permission for Catalog Api"),
                 new ApiScope("photo_stock_fullpermission","full permission for Photo Stock Api"),
+                new ApiScope("basket_fullpermission","full permission for Basket Api"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -51,7 +53,7 @@ namespace Travel.IdentityServer
                AllowOfflineAccess=true,
                ClientSecrets={ new Secret ("secret".Sha256() ) },
                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
-               AllowedScopes={ IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId,
+               AllowedScopes={"basket_fullpermission", IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess,IdentityServerConstants.LocalApi.ScopeName, "roles" },
                AccessTokenLifetime=1*60*60,
