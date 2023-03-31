@@ -3,4 +3,5 @@ Services
   --photo_stock_api=>5012
   --basket_api=>5013
   --discount_api=>5014
+  --order_api=>5015
 identityServer=>5001

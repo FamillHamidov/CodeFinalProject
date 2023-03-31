@@ -1,0 +1,15 @@
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\bin\Debug\net7.0\Travel.Services.Order.Domain.deps.json
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\bin\Debug\net7.0\Travel.Services.Order.Domain.dll
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\bin\Debug\net7.0\Travel.Services.Order.Domain.pdb
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\bin\Debug\net7.0\Travel.Services.Order.Domain.Core.dll
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\bin\Debug\net7.0\Travel.Services.Order.Domain.Core.pdb
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.csproj.AssemblyReference.cache
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.AssemblyInfoInputs.cache
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.AssemblyInfo.cs
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.csproj.CoreCompileInputs.cache
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.csproj.CopyComplete
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.dll
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\refint\Travel.Services.Order.Domain.dll
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\Travel.Services.Order.Domain.pdb
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Domain\obj\Debug\net7.0\ref\Travel.Services.Order.Domain.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Travel.Services.Order.Domain/1.0.0": {
+        "dependencies": {
+          "Travel.Services.Order.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Travel.Services.Order.Domain.dll": {}
+        }
+      },
+      "Travel.Services.Order.Domain.Core/1.0.0": {
+        "runtime": {
+          "Travel.Services.Order.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Travel.Services.Order.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Travel.Services.Order.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
