@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eTtFXD2Nl6ejA0xGFVZXemsQmQ8Rb5i0Qcjw5uLldpGg+sckQqfraffJuhEZSHMlIvamupeGwH2vLNqk7nVXnQ==",
+  "dgSpecHash": "lNxpyTlF+jQzsyC58RrgVuaZ1tXJgWQG6uxtn9x8P6UDqOUEdB24THZ2hID9E+PB1sG+VoyxkD7U4qerBSgGBA==",
   "success": true,
   "projectFilePath": "D:\\Project\\CodeAcademyFinalProject\\Services\\Order\\Travel.Services.Order.Domain\\Travel.Services.Order.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

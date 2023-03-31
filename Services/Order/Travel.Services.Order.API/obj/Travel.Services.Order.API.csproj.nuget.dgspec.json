@@ -52,13 +52,23 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -118,6 +128,9 @@
               },
               "D:\\Project\\CodeAcademyFinalProject\\Services\\Order\\Travel.Services.Order.Infastructure\\Travel.Services.Order.Infastructure.csproj": {
                 "projectPath": "D:\\Project\\CodeAcademyFinalProject\\Services\\Order\\Travel.Services.Order.Infastructure\\Travel.Services.Order.Infastructure.csproj"
+              },
+              "D:\\Project\\CodeAcademyFinalProject\\Shared\\Travel.Shared\\Travel.Shared.csproj": {
+                "projectPath": "D:\\Project\\CodeAcademyFinalProject\\Shared\\Travel.Shared\\Travel.Shared.csproj"
               }
             }
           }
@@ -261,6 +274,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

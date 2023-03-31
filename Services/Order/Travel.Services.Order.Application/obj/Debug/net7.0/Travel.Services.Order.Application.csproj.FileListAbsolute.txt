@@ -17,3 +17,5 @@ D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Applicat
 D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Application\obj\Debug\net7.0\refint\Travel.Services.Order.Application.dll
 D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Application\obj\Debug\net7.0\Travel.Services.Order.Application.pdb
 D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Application\obj\Debug\net7.0\ref\Travel.Services.Order.Application.dll
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Application\bin\Debug\net7.0\Travel.Shared.dll
+D:\Project\CodeAcademyFinalProject\Services\Order\Travel.Services.Order.Application\bin\Debug\net7.0\Travel.Shared.pdb

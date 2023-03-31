@@ -14,6 +14,9 @@ namespace Travel.Services.Order.Domain.OrderAggregate
         public Address Address { get; private set; }
         private readonly List<OrderItem> _orderItems;
         public IReadOnlyCollection<OrderItem> OrderItems=>_orderItems;
+        public Order()
+        {
+        }
         public Order( string buyerId, Address address)
         {
             _orderItems = new List<OrderItem>();

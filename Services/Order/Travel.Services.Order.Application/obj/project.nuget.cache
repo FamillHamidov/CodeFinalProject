@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1QyYYtKNYVZrInRo78n9ERGH7YneWilkfhbn6/cb7NH09J5Tt4IocA+6L7Q5gjKqrfIJ1qUfNOeZL2Lmc6xilA==",
+  "dgSpecHash": "1zZ94Hz0sD5m+t10cT8UBm/J53FXnqUoGbQj7hnzlVjusiKFHdpKYR0B5dNzISWQKHC5ZWtmyRLFDNYwa3r6hw==",
   "success": true,
   "projectFilePath": "D:\\Project\\CodeAcademyFinalProject\\Services\\Order\\Travel.Services.Order.Application\\Travel.Services.Order.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

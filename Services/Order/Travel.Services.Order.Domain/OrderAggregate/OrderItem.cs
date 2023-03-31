@@ -9,6 +9,9 @@ namespace Travel.Services.Order.Domain.OrderAggregate
 {
     public class OrderItem:Entity
     {
+        public OrderItem()
+        {
+        }
         public OrderItem(string tourId, string tourName, int count, decimal price)
         {
             TourId = tourId;

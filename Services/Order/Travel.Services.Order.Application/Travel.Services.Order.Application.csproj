@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Travel.Shared\Travel.Shared.csproj" />
     <ProjectReference Include="..\Travel.Services.Order.Domain\Travel.Services.Order.Domain.csproj" />
     <ProjectReference Include="..\Travel.Services.Order.Infastructure\Travel.Services.Order.Infastructure.csproj" />
   </ItemGroup>
