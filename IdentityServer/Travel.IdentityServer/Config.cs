@@ -20,15 +20,16 @@ namespace Travel.IdentityServer
                  new ApiResource("resource_discount"){ Scopes={ "discount_fullpermission" } },
                  new ApiResource("resource_order"){ Scopes={ "order_fullpermission" } },
                  new ApiResource("resource_payment"){ Scopes={ "payment_fullpermission" } },
+                 new ApiResource("resource_gateway"){ Scopes={ "gateway_fullpermission" } },
                  new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
              };
         public static IEnumerable<IdentityResource> IdentityResources =>
                    new IdentityResource[]
                    {
-              new IdentityResources.Email(),
-              new IdentityResources.OpenId(),
-              new IdentityResources.Profile(),
-              new IdentityResource(){ Name="roles", DisplayName="Roles", Description="User roles", UserClaims=new[]{"role" } }
+                      new IdentityResources.Email(),
+                      new IdentityResources.OpenId(),
+                      new IdentityResources.Profile(),
+                      new IdentityResource(){ Name="roles", DisplayName="Roles", Description="User roles", UserClaims=new[]{"role" } }
                    };
 
         public static IEnumerable<ApiScope> ApiScopes =>
@@ -40,6 +41,7 @@ namespace Travel.IdentityServer
                 new ApiScope("discount_fullpermission","full permission for Discount Api"),
                 new ApiScope("order_fullpermission","full permission for Order Api"),
                 new ApiScope("payment_fullpermission","full permission for FakePayment Api"),
+                new ApiScope("gateway_fullpermission","full permission for Gateway Api"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -51,7 +53,7 @@ namespace Travel.IdentityServer
                ClientId="WebMVCClient",
                ClientSecrets={ new Secret ("secret".Sha256() ) },
                AllowedGrantTypes=GrantTypes.ClientCredentials,
-               AllowedScopes={ "catalog_fullpermission", "photo_stock_fullpermission",IdentityServerConstants.LocalApi.ScopeName }
+               AllowedScopes={ "catalog_fullpermission", "photo_stock_fullpermission", "gateway_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
                },
                 new Client{
                ClientName="Asp.Net Core MVC",
@@ -60,6 +62,7 @@ namespace Travel.IdentityServer
                ClientSecrets={ new Secret ("secret".Sha256() ) },
                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                AllowedScopes={"basket_fullpermission","discount_fullpermission","order_fullpermission","payment_fullpermission",
+                        "gateway_fullpermission",
                         IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess,IdentityServerConstants.LocalApi.ScopeName, "roles" },

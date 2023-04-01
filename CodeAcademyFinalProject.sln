@@ -50,6 +50,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Shared", "Shared\Tra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Services.FakePayment", "Services\FakePayment\Travel.Services.FakePayment\Travel.Services.FakePayment.csproj", "{00F8A413-5D28-4CB4-934A-4DAB0387849E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{C638A229-DBC6-4D95-8054-8FA319980332}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Gateway", "Gateways\Travel.Gateway\Travel.Gateway.csproj", "{64CF44AB-50D1-47C0-B433-2B67726E1664}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +108,10 @@ Global
 		{00F8A413-5D28-4CB4-934A-4DAB0387849E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F8A413-5D28-4CB4-934A-4DAB0387849E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F8A413-5D28-4CB4-934A-4DAB0387849E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +135,7 @@ Global
 		{81877C02-97C2-4540-987B-7B6426B6F4FE} = {097B59EB-CE95-44AB-8B8D-76A1CC038748}
 		{808589E6-5ED0-4FB2-BFFF-14734A49FA1E} = {AE6186AD-96B0-4972-BFE8-B49EF6CA10D8}
 		{00F8A413-5D28-4CB4-934A-4DAB0387849E} = {81877C02-97C2-4540-987B-7B6426B6F4FE}
+		{64CF44AB-50D1-47C0-B433-2B67726E1664} = {C638A229-DBC6-4D95-8054-8FA319980332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A85B448D-75E1-431E-A0CD-E41CFCE25F67}

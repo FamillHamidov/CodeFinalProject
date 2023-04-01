@@ -32,6 +32,16 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 });
 builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings"));
 var app = builder.Build();
+using(var scope = app.Services.CreateScope())
+{
+    var seviceProvider=scope.ServiceProvider;
+    var categoryService = seviceProvider.GetRequiredService<ICategoryService>();
+    if (!categoryService.GetAllAsync().Result.Data.Any())
+    {
+        categoryService.CreateAsync(new Travel.Services.Catalog.Dtos.CategoryDto { Name = "Daxili" }).Wait();
+        categoryService.CreateAsync(new Travel.Services.Catalog.Dtos.CategoryDto { Name = "Xarici" }).Wait();
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
