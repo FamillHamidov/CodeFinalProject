@@ -4,4 +4,6 @@ Services
   --basket_api=>5013
   --discount_api=>5014
   --order_api=>5015
+  --payment_api=>5016
 identityServer=>5001
+gateway=>5000

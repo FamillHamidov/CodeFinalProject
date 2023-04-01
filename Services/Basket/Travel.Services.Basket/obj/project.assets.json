@@ -170,7 +170,7 @@
           }
         }
       },
-      "StackExchange.Redis/2.6.96": {
+      "StackExchange.Redis/2.6.104": {
         "type": "package",
         "dependencies": {
           "Pipelines.Sockets.Unofficial": "2.2.2"
@@ -773,10 +773,10 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
-    "StackExchange.Redis/2.6.96": {
-      "sha512": "JDj94bTwBZ6zA1vknEYJppRXRejTnl5u2z6cRBQ0DJ+Uy94qvn0XsQZ2M+1/VkqtxQ+LUU1h4JZWwcvVojGiQg==",
+    "StackExchange.Redis/2.6.104": {
+      "sha512": "ccfmWZifNOk2c+co6urH9BeyUzmbqalyksVy6Ma28xNTLT3Nrng+5OX+EB5KrTsWHykoZTGzTM3L7ndySuxEuA==",
       "type": "package",
-      "path": "stackexchange.redis/2.6.96",
+      "path": "stackexchange.redis/2.6.104",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -790,7 +790,7 @@
         "lib/netcoreapp3.1/StackExchange.Redis.xml",
         "lib/netstandard2.0/StackExchange.Redis.dll",
         "lib/netstandard2.0/StackExchange.Redis.xml",
-        "stackexchange.redis.2.6.96.nupkg.sha512",
+        "stackexchange.redis.2.6.104.nupkg.sha512",
         "stackexchange.redis.nuspec"
       ]
     },
@@ -993,7 +993,7 @@
     "net7.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.4",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
-      "StackExchange.Redis >= 2.6.96",
+      "StackExchange.Redis >= 2.6.104",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Travel.Shared >= 1.0.0"
     ]
@@ -1057,7 +1057,7 @@
           },
           "StackExchange.Redis": {
             "target": "Package",
-            "version": "[2.6.96, )"
+            "version": "[2.6.104, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

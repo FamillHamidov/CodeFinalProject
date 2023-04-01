@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aQkHvmJK8hY4ZRT1Slg1MdISCF4ejgOy5NAx1oUiMcM=",
+  "Source": "Travel.Services.FakePayment",
+  "BasePath": "_content/Travel.Services.FakePayment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

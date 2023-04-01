@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HnXOT3S0Fp7jghAf1pJ9iz8Frk6sU+/PPNbrsPKDSCRlSGHGIh6E5n2Q4yJe0Xj+K6FNe0+WXgJfcK6cOrGL4Q==",
+  "dgSpecHash": "hj9/azv1EZarACBjHYLJWJyKdRITk4VwC8onBaLY7fKV8ObIFsQaZDwAeuIxWFUuZsS4EMEa7/Rkj4SuFCQI0g==",
   "success": true,
   "projectFilePath": "D:\\Project\\CodeAcademyFinalProject\\Services\\Basket\\Travel.Services.Basket\\Travel.Services.Basket.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
-    "C:\\Users\\Dell\\.nuget\\packages\\stackexchange.redis\\2.6.96\\stackexchange.redis.2.6.96.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\stackexchange.redis\\2.6.104\\stackexchange.redis.2.6.104.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
