@@ -54,6 +54,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{C6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Gateway", "Gateways\Travel.Gateway\Travel.Gateway.csproj", "{64CF44AB-50D1-47C0-B433-2B67726E1664}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{0C113725-C5B7-4ABF-8319-6DB47393F015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Web", "Frontends\Travel.Web\Travel.Web.csproj", "{1D5B6ADE-0709-4D8C-B6BD-FC40063AF7AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +116,10 @@ Global
 		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64CF44AB-50D1-47C0-B433-2B67726E1664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5B6ADE-0709-4D8C-B6BD-FC40063AF7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5B6ADE-0709-4D8C-B6BD-FC40063AF7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5B6ADE-0709-4D8C-B6BD-FC40063AF7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5B6ADE-0709-4D8C-B6BD-FC40063AF7AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +144,7 @@ Global
 		{808589E6-5ED0-4FB2-BFFF-14734A49FA1E} = {AE6186AD-96B0-4972-BFE8-B49EF6CA10D8}
 		{00F8A413-5D28-4CB4-934A-4DAB0387849E} = {81877C02-97C2-4540-987B-7B6426B6F4FE}
 		{64CF44AB-50D1-47C0-B433-2B67726E1664} = {C638A229-DBC6-4D95-8054-8FA319980332}
+		{1D5B6ADE-0709-4D8C-B6BD-FC40063AF7AA} = {0C113725-C5B7-4ABF-8319-6DB47393F015}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A85B448D-75E1-431E-A0CD-E41CFCE25F67}
