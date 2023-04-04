@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wpEiF4fjYGFr5cXPIGbaX/lSQq3ZsoziMVlMe9QE+xDAI0Hs1HR76ItVueXTLqBhnjppWWifc3vw8avhDz2tBA==",
+  "dgSpecHash": "17u1IK0hayQ9zoI71Ce/JDS2/CgDeFkgVtIsxF9iFNSSYVwFaP6d+++ClEjGbZ1o+LQ/aMNpsD030gb4hvO1Rw==",
   "success": true,
   "projectFilePath": "D:\\Project\\CodeAcademyFinalProject\\Frontends\\Travel.Web\\Travel.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\identitymodel.aspnetcore\\4.3.0\\identitymodel.aspnetcore.4.3.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
