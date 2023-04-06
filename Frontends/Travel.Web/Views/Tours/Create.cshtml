@@ -18,7 +18,6 @@
                         <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.categoryList">
                             <option value="">Kateqoriyanı seçin</option>
                         </select>
-
                         <span class="text-danger" asp-validation-for="CategoryId"></span>
                     </div>
 
@@ -39,20 +38,25 @@
                         <textarea asp-for="Description" class="form-control"></textarea>
                         <span class="text-danger" asp-validation-for="Description"></span>
                     </div>
-
+                    <div class="mb-3">
+                        <label asp-for="Luggage" class="form-label"></label>
+                        <textarea asp-for="Luggage" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="Luggage"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="AirTicket" class="form-label"></label>
+                        <textarea asp-for="AirTicket" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="AirTicket"></span>
+                    </div>
                     <div class="mb-3">
                         <label asp-for="Feature.Duration" class="form-label"></label>
                         <input asp-for="Feature.Duration" class="form-control" />
                         <span class="text-danger" asp-validation-for="Feature.Duration"></span>
                     </div>
-
-                   @* <div class="mb-3">
-
+                   <div class="mb-3">
                         <label class="form-label" asp-for="PhotoFormFile"></label>
-
                         <input type="file" asp-for="PhotoFormFile" class="form-control" />
-                    </div>*@
-
+                    </div>
                     <button type="submit" class="btn btn-primary">Kurs Kaydet</button>
                 </form>
             </div>

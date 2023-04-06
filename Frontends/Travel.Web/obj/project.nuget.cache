@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "17u1IK0hayQ9zoI71Ce/JDS2/CgDeFkgVtIsxF9iFNSSYVwFaP6d+++ClEjGbZ1o+LQ/aMNpsD030gb4hvO1Rw==",
+  "dgSpecHash": "RaoU8cx0tEUhoI9gD3JrH8q/stRgKV7jpwN0FtV0UZ1sSLArNCjg/92AH0vCsM20iTcmIn8uob5w29oHQ4SOOA==",
   "success": true,
   "projectFilePath": "D:\\Project\\CodeAcademyFinalProject\\Frontends\\Travel.Web\\Travel.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\identitymodel.aspnetcore\\4.3.0\\identitymodel.aspnetcore.4.3.0.nupkg.sha512",

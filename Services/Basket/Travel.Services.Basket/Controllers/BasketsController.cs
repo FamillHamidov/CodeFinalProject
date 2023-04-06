@@ -22,13 +22,13 @@ namespace Travel.Services.Basket.Controllers
         [HttpGet]
         public async Task<IActionResult> GetBasket()
         {
-            
             return CreateActionResultInstance(await _basketService.GetBasket(_sharedIdentityService.GetUserId));
         }
         [HttpPost]
         public async Task<IActionResult> SaveOrUpdate(BasketDto basketDto)
         {
-            var response = await _basketService.SaveOrUpdate(basketDto);
+			basketDto.UserId = _sharedIdentityService.GetUserId;
+			var response = await _basketService.SaveOrUpdate(basketDto);
             return CreateActionResultInstance(response);
         }
         [HttpDelete]

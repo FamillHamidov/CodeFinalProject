@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\photos\\123caa4b-e74f-4f1f-888c-88abcdddf494.jpg",
+      "PackagePath": "staticwebassets\\photos\\123caa4b-e74f-4f1f-888c-88abcdddf494.jpg"
+    },
+    {
+      "Id": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\photos\\6c823a8d-6094-4edc-a443-d2a6ca4672e8.jpg",
+      "PackagePath": "staticwebassets\\photos\\6c823a8d-6094-4edc-a443-d2a6ca4672e8.jpg"
+    },
+    {
+      "Id": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\photos\\98c0ca28-70a4-48d8-9ba2-c1a2405e05c7.jpg",
+      "PackagePath": "staticwebassets\\photos\\98c0ca28-70a4-48d8-9ba2-c1a2405e05c7.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Travel.Services.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Travel.Services.PhotoStock.props",
+      "PackagePath": "build\\Travel.Services.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Travel.Services.PhotoStock.props",
+      "PackagePath": "buildMultiTargeting\\Travel.Services.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Travel.Services.PhotoStock.props",
+      "PackagePath": "buildTransitive\\Travel.Services.PhotoStock.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hOHaiJCpGd4t+J4ndVwiLcQRNENUNd/S4EXh+p8GfyA=",
+  "Hash": "x66bkKKgptUe8Klf8uRR9u/4o+8anmhhll6E5LmwzoY=",
   "Source": "Travel.Services.PhotoStock",
   "BasePath": "_content/Travel.Services.PhotoStock",
   "Mode": "Default",
@@ -15,5 +15,57 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\photos\\123caa4b-e74f-4f1f-888c-88abcdddf494.jpg",
+      "SourceId": "Travel.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Travel.Services.PhotoStock",
+      "RelativePath": "photos/123caa4b-e74f-4f1f-888c-88abcdddf494.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\123caa4b-e74f-4f1f-888c-88abcdddf494.jpg"
+    },
+    {
+      "Identity": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\photos\\6c823a8d-6094-4edc-a443-d2a6ca4672e8.jpg",
+      "SourceId": "Travel.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Travel.Services.PhotoStock",
+      "RelativePath": "photos/6c823a8d-6094-4edc-a443-d2a6ca4672e8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\6c823a8d-6094-4edc-a443-d2a6ca4672e8.jpg"
+    },
+    {
+      "Identity": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\photos\\98c0ca28-70a4-48d8-9ba2-c1a2405e05c7.jpg",
+      "SourceId": "Travel.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\CodeAcademyFinalProject\\Services\\PhotoStock\\Travel.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Travel.Services.PhotoStock",
+      "RelativePath": "photos/98c0ca28-70a4-48d8-9ba2-c1a2405e05c7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\98c0ca28-70a4-48d8-9ba2-c1a2405e05c7.jpg"
+    }
+  ]
 }

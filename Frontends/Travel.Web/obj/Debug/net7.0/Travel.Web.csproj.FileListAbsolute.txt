@@ -256,3 +256,6 @@ D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\Microso
 D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\IdentityModel.AspNetCore.dll
 D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\FluentValidation.dll
+D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\Project\CodeAcademyFinalProject\Frontends\Travel.Web\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

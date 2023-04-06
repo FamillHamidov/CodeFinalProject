@@ -1,28 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Travel.Web.Models;
+using Travel.Web.Services.Interfaces;
 
 namespace Travel.Web.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ICatalogService _catalogService;
+		public HomeController(ILogger<HomeController> logger, ICatalogService catalogService)
+		{
+			_logger = logger;
+			_catalogService = catalogService;
+		}
 
-        public HomeController(ILogger<HomeController> logger)
+		public async Task<IActionResult> Index()
         {
-            _logger = logger;
+            return View(await _catalogService.GetAllTourAsync());
         }
-
-        public IActionResult Index()
+        public async Task<IActionResult> Detail(string id)
         {
-            return View();
+            return View(await _catalogService.GetByTourId(id));
         }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
